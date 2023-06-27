@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+*
+{
+    margin:0
+    padding:0;
+    font-family: 'Quicksand', sans-serif;
+    
+    
+}
+
+    ul{ list-style-type: none;}
+.menu_part
+{
+    background-color:rgb(43, 16, 121);
+    height: 100px;
+    position:fixed;
+    width:100%;
+    bottom: 580px;
+}
+.alignment{
+    width: 80%;
+    
+    margin:auto;
+}
+.menu_con_main{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{ display: flex;
+
+}
+.menu li{ position:relative;}
+.menu li a {padding:20px 15px;
+display:block;
+font-size: 20px;
+color:rgb(40, 136, 200);
+text-decoration: none;
+}
+.menu li a:hover{
+    color:rgba(158, 249, 255, 0.994);
+    background: #aad5ff;
+}
+.logo{
+    text-shadow: 0 0 10px  rgb(71, 63, 63);
+}
+.menu li a{
+    text-shadow: 0 0 10px rgb(116, 106, 106);
+}
+
+.dropdown{ display: none;
+position:absolute;
+background: #abd0f5;
+}
+.menu li:hover .dropdown{
+    display:block;
+}
+.subdrop
+{
+    display: none;
+    position:absolute;
+    background: hsl(220, 100%, 81%);
+    top:0;
+    left:100%
+    
+}
+.dropdown li:hover .subdrop { display:block;}
+.dropdown li{ position:relative;}
+.hogwarts{
+    background: #e6e0e0;
+    padding:40px 0;
+}
+.hogwarts{
+   background-image: url(lala.jpg );
+    padding:50px 0;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+   
+
+}
+.harry{
+    min-height: 500px;
+    width:400px;
+    background: linear-gradient(blue,rgb(0, 0, 51));
+    margin:auto;
+    padding: 15px;
+    border:10px dashed rgb(17, 20, 90);
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px rgb(108, 108, 168);
+    transition: .4s;
+    
+}
+.harry:hover{
+    transform:scale(1.1)   
+}
+
+.Hermione{
+    height: 35px;
+    width: 100%;
+    outline:0;
+    color:rgb(45, 45, 190);
+    font-size: 18px;
+    padding-left: 10px;
+    box-sizing:border-box;
+    border-radius: 10px;
+    
+}
+.harry h1{
+    font-size: 35px;
+    font-style: normal;
+    color:rgb(21, 39, 102);
+    padding: 8px;
+}
+.harry h3{
+    font-size: 18px;
+    font-style: normal;
+    color:rgb(41, 27, 97);
+    padding:8px;
+    
+}
+.ron{
+    padding:8px;
+}
+.neville{
+    height: 50px;
+    background: #93b8e3;
+
+
+    width:100%;
+    color:rgb(44, 31, 184);
+    font-size: 25px;
+}
+
